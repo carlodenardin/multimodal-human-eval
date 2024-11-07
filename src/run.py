@@ -38,7 +38,7 @@ def generate_completion(prompt: str):
         {
             "role": "user",
             "content": [
-                {"type": image},
+                {"type": "image", "image": image},
                 {"type": "text", "text": PROMPT_INSTRUCTION + prompt},
             ],
         },
