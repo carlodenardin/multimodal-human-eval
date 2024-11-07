@@ -17,7 +17,7 @@ model_id = "google/paligemma-3b-mix-224"
 model = PaliGemmaForConditionalGeneration.from_pretrained(model_id).eval()
 processor = AutoProcessor.from_pretrained(model_id)
 
-url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/tasks/car.jpg?download=true"
+url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
 image = Image.open(requests.get(url, stream=True).raw)
 
 
