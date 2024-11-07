@@ -1,3 +1,4 @@
 build
 resources
 multimodal_human_eval.egg-info
+.env
