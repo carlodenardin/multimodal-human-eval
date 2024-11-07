@@ -1,4 +1,4 @@
-from transformers import AutoProcessor, LLavaForConditionalGeneration
+from transformers import AutoProcessor, LlavaForConditionalGeneration
 from PIL import Image
 
 # import ollama
@@ -14,7 +14,7 @@ END_TRIM = "```"
 
 model_id = "llava-hf/llava-1.5-7b-hf"
 
-model = LLavaForConditionalGeneration.from_pretrained(
+model = LlavaForConditionalGeneration.from_pretrained(
     model_id, torch_dtype=torch.float16, device_map="auto")
 processor = AutoProcessor.from_pretrained(model_id)
 
