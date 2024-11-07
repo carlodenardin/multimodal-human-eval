@@ -14,8 +14,7 @@ END_TRIM = "```"
 
 model_id = "llava-hf/llava-1.5-7b-hf"
 
-model = LlavaForConditionalGeneration.from_pretrained(
-    model_id, torch_dtype=torch.float16, device_map="auto")
+model = LlavaForConditionalGeneration.from_pretrained(model_id)
 processor = AutoProcessor.from_pretrained(model_id)
 
 url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
