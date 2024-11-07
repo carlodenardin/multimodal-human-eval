@@ -42,7 +42,7 @@ def generate_completion(prompt: str):
         generation = generation[0][input_len:]
         decoded = processor.decode(generation, skip_special_tokens=True)
         print(decoded)
-    return trim_code(response["message"]["content"])
+    return trim_code(decoded)
 
 
 problems = read_problems(dataset="./data/problems.jsonl")
