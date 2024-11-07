@@ -1,4 +1,4 @@
-from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
+from transformers import AutoProcessor, LLavaForConditionalGeneration
 from PIL import Image
 
 # import ollama
@@ -12,9 +12,10 @@ from multimodal_human_eval.data import read_problems, write_jsonl
 BEGIN_TRIM = "```python"
 END_TRIM = "```"
 
-model_id = "google/paligemma-3b-mix-224"
+model_id = "llava-hf/llava-1.5-7b-hf"
 
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id).eval()
+model = LLavaForConditionalGeneration.from_pretrained(
+    model_id, torch_dtype=torch.float16, device_map="auto")
 processor = AutoProcessor.from_pretrained(model_id)
 
 url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
@@ -33,17 +34,27 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    final_prompt = "<image><bos> " + PROMPT_INSTRUCTION + prompt
-    model_inputs = processor(
-        text=final_prompt, images=image, return_tensors="pt")
-    input_len = model_inputs["input_ids"].shape[-1]
+    final_prompt = [
+        {
+            "role": "user",
+            "content": [
+                {"type": image},
+                {"type": "text", "text": PROMPT_INSTRUCTION + prompt},
+            ],
+        },
+    ]
 
-    with torch.inference_mode():
+    # Pre-processamento dell'input per LLava
+    model_inputs = processor(final_prompt, return_tensors="pt").to("cuda")
+
+    # Generazione della risposta
+    with torch.no_grad():
         generation = model.generate(
             **model_inputs, max_new_tokens=100, do_sample=False)
-        generation = generation[0][input_len:]
-        decoded = processor.decode(generation, skip_special_tokens=True)
-        print(decoded)
+
+    # Decodifica il risultato
+    decoded = processor.decode(generation[0], skip_special_tokens=True)
+    print(decoded)
     return trim_code(decoded)
 
 
