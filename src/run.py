@@ -33,7 +33,7 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    final_prompt = PROMPT_INSTRUCTION + prompt
+    final_prompt = "<image><bos> " + PROMPT_INSTRUCTION + prompt
     model_inputs = processor(
         text=final_prompt, images=image, return_tensors="pt")
     input_len = model_inputs["input_ids"].shape[-1]
