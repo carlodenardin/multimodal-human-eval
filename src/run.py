@@ -17,6 +17,9 @@ model_id = "google/paligemma-3b-mix-224"
 model = PaliGemmaForConditionalGeneration.from_pretrained(model_id).eval()
 processor = AutoProcessor.from_pretrained(model_id)
 
+url = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/tasks/car.jpg?download=true"
+image = Image.open(requests.get(url, stream=True).raw)
+
 
 def trim_code(text: str):
     begin = text.find(BEGIN_TRIM) + len(BEGIN_TRIM)
@@ -30,16 +33,7 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    """response = ollama.chat(
-            model="llama3.2",
-            messages=[
-                    {
-                            "role": "user",
-                            "content": PROMPT_INSTRUCTION + prompt,
-                    }
-            ],
-    )"""
-    model_inputs = processor(text=prompt, return_tensors="pt")
+    model_inputs = processor(text=prompt, images=image, return_tensors="pt")
     input_len = model_inputs["input_ids"].shape[-1]
 
     with torch.inference_mode():
