@@ -1,0 +1,7 @@
+fire
+ollama
+tqdm
+numpy
+transformers
+torch
+pillow
