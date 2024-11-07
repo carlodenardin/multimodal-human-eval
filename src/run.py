@@ -33,7 +33,9 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    model_inputs = processor(text=prompt, images=image, return_tensors="pt")
+    final_prompt = PROMPT_INSTRUCTION + prompt
+    model_inputs = processor(
+        text=final_prompt, images=image, return_tensors="pt")
     input_len = model_inputs["input_ids"].shape[-1]
 
     with torch.inference_mode():
