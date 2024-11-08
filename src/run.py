@@ -15,6 +15,10 @@ processor = AutoProcessor.from_pretrained(model_id)
 model = LlavaForConditionalGeneration.from_pretrained(
     model_id, torch_dtype=torch.float16, device_map="auto")
 
+processor.patch_size = model.config.vision_config.patch_size
+
+processor.vision_feature_select_strategy = model.config.vision_feature_select_strategy
+
 url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
 image = Image.open(requests.get(url, stream=True).raw)
 
