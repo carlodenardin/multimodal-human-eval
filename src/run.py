@@ -40,7 +40,7 @@ def generate_completion(prompt: str):
             **inputs, max_new_tokens=100, do_sample=False)
 
     decoded = processor.decode(generation[0], skip_special_tokens=True)
-    print(decoded)  # Rimuovi questa linea se non vuoi la stampa su console
+    print(decoded)
     return trim_code(decoded)
 
 
