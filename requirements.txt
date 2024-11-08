@@ -2,7 +2,8 @@ fire
 ollama
 tqdm
 numpy
-transformers
 torch
 pillow
-accelerate
+bitsandbytes>=0.39.0
+accelerate>=0.20.0
+transformers
