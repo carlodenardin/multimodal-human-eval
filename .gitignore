@@ -2,3 +2,4 @@ build
 resources
 multimodal_human_eval.egg-info
 .env
+/data/human-eval.json

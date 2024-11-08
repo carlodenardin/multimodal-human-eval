@@ -1,26 +1,24 @@
-from transformers import AutoProcessor, LlavaForConditionalGeneration
+from transformers import AutoProcessor, PaliGemmaForConditionalGeneration, BitsAndBytesConfig
 from PIL import Image
+
 import requests
 import torch
 import tqdm
+
 from utils.const import PROMPT_INSTRUCTION
 from multimodal_human_eval.data import read_problems, write_jsonl
 
 BEGIN_TRIM = "```python"
 END_TRIM = "```"
 
-model_id = "llava-hf/llava-1.5-7b-hf"
+model_id = "google/paligemma-3b-mix-224"
 
+bnb_config = BitsAndBytesConfig(load_in_8bit=True)
+model = PaliGemmaForConditionalGeneration.from_pretrained(
+    model_id, quantization_config=bnb_config)
 processor = AutoProcessor.from_pretrained(model_id)
-model = LlavaForConditionalGeneration.from_pretrained(
-    model_id, torch_dtype=torch.float16, device_map="auto")
 
-processor.patch_size = model.config.vision_config.patch_size
-
-processor.vision_feature_select_strategy = model.config.vision_feature_select_strategy
-
-url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
-image = Image.open(requests.get(url, stream=True).raw)
+raw_image = Image.open('data/images/p100.png')
 
 
 def trim_code(text: str):
@@ -35,16 +33,14 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    final_prompt = "<image>" + PROMPT_INSTRUCTION + prompt
-    inputs = processor(text=final_prompt, images=image,
-                       padding=True, return_tensors="pt").to(model.device)
+    final_prompt = PROMPT_INSTRUCTION + prompt
+    print(final_prompt)
+    inputs = processor(raw_image, PROMPT_INSTRUCTION +
+                       prompt, return_tensors="pt")
+    output = model.generate(**inputs, max_new_tokens=200)
 
-    with torch.no_grad():
-        generation = model.generate(
-            **inputs, max_new_tokens=100, do_sample=False)
-
-    decoded = processor.decode(generation[0], skip_special_tokens=True)
-    print(decoded)
+    print(processor.decode(output[0], skip_special_tokens=True)[
+          inputs.input_ids.shape[1]:])
     return trim_code(decoded)
 
 
