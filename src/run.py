@@ -1,12 +1,8 @@
 from transformers import AutoProcessor, LlavaForConditionalGeneration
-from transformers import BitsAndBytesConfig
 from PIL import Image
-
-# import ollama
 import requests
 import torch
 import tqdm
-
 from utils.const import PROMPT_INSTRUCTION
 from multimodal_human_eval.data import read_problems, write_jsonl
 
@@ -17,7 +13,7 @@ model_id = "llava-hf/llava-1.5-7b-hf"
 
 processor = AutoProcessor.from_pretrained(model_id)
 model = LlavaForConditionalGeneration.from_pretrained(
-    model_id, device_map="auto")
+    model_id, torch_dtype=torch.float16, device_map="auto")
 
 url = "https://www.w3resource.com/w3r_images/python-programming-puzzles-image-exercise-4-a.png"
 image = Image.open(requests.get(url, stream=True).raw)
@@ -35,22 +31,20 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    inputs = processor(
-        PROMPT_INSTRUCTION + prompts, images=image, padding=True, return_tensors="pt").to("cuda")
+    final_prompt = PROMPT_INSTRUCTION + prompt
+    inputs = processor(text=final_prompt, images=image,
+                       padding=True, return_tensors="pt").to(model.device)
 
-    # Generazione della risposta
     with torch.no_grad():
         generation = model.generate(
             **inputs, max_new_tokens=100, do_sample=False)
 
-    # Decodifica il risultato
     decoded = processor.decode(generation[0], skip_special_tokens=True)
-    print(decoded)
+    print(decoded)  # Rimuovi questa linea se non vuoi la stampa su console
     return trim_code(decoded)
 
 
 problems = read_problems(dataset="./data/problems.jsonl")
-
 n_samples = 1
 
 samples = [
