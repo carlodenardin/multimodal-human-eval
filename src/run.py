@@ -31,7 +31,7 @@ def trim_code(text: str):
 
 
 def generate_completion(prompt: str):
-    final_prompt = PROMPT_INSTRUCTION + prompt
+    final_prompt = "<image>" + PROMPT_INSTRUCTION + prompt
     inputs = processor(text=final_prompt, images=image,
                        padding=True, return_tensors="pt").to(model.device)
 
