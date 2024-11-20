@@ -100,7 +100,7 @@
 <table>
 	<tr>
 		<th>Problem</th>
-		<th width="100">Push-GP</th>
+		<th width="100">Solved by Push-GP</th>
 		<th>Description</th>
 		<th>Diagram Available</th>
 	</tr>
