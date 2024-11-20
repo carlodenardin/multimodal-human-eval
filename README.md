@@ -250,7 +250,7 @@ PSB2
 	<td><a href="">Work in progress</a></td>
   </tr>
   <tr>
-  <td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867"</td>
+  <td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867">Vector Distance</a></td>
   <td>
       No
     </td>

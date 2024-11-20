@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.8.6">
+  <diagram name="Page-1" id="z9LAb5Ok6JyxKWv0N6qz">
+    <mxGraphModel dx="989" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-31" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-32" value="l1: list[int], l2:list[int]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="495" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-33" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Check if the lists have&lt;/font&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;equal length and are&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;not empty&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-31" target="VEksvsux0m4Nuiqm_-Sr-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="700" as="sourcePoint" />
+            <mxPoint x="315" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-32" target="VEksvsux0m4Nuiqm_-Sr-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="500" as="sourcePoint" />
+            <mxPoint x="565" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-36" value="-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-37" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-33" target="VEksvsux0m4Nuiqm_-Sr-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="580" as="sourcePoint" />
+            <mxPoint x="565" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-39" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEksvsux0m4Nuiqm_-Sr-38">
+          <mxGeometry x="-0.2928" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-36" target="VEksvsux0m4Nuiqm_-Sr-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="580" as="sourcePoint" />
+            <mxPoint x="565" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-41" value="Compute the euclidean distance between l1 and l2." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="495" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-42" value="res" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-43" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-42" target="VEksvsux0m4Nuiqm_-Sr-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="820" as="sourcePoint" />
+            <mxPoint x="615" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="820" as="sourcePoint" />
+            <mxPoint x="555" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VEksvsux0m4Nuiqm_-Sr-33" target="VEksvsux0m4Nuiqm_-Sr-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="740" as="sourcePoint" />
+            <mxPoint x="565" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEksvsux0m4Nuiqm_-Sr-47" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEksvsux0m4Nuiqm_-Sr-46">
+          <mxGeometry x="-0.346" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
