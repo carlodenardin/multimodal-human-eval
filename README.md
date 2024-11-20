@@ -18,13 +18,6 @@
 		<td><a href="data/diagrams/p84/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
-		<td>HumanEval/95</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/95.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./gpt-3.5-turbo/95.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./gpt-4/95.md">100%</a> </td>
-		<td> Check if all keys in a dictionary are either all lowercase or all uppercase strings, and return True if they are, otherwise return False. </td>
-	</tr>
-	<tr>
 		<td>HumanEval/106</td>
 		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./codellama-34b-instruct/106.md">80%</a> </td>
 		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./gpt-3.5-turbo/106.md">100%</a> </td>
@@ -108,7 +101,7 @@
 		<td><a href="https://www.codewars.com/kata/5a651865fd56cb55760000e0">Leaders</a></td>
 		<td> No </td>
 		<td> Given a vector of positive integers, return a vector of the leaders in that vector. A leader is deﬁned as a number that is greater than or equal to all the numbers to the right of it. The rightmost element is always a leader. </td>
-		<td><a href="">Work in progress</a></td>
+		<td>Work in progress</td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867">Vector Distance</a></td>
@@ -120,6 +113,6 @@
 		<td><a href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Digits</a></td>
 		<td> No </td>
 		<td> Given a positive integer, square each digit and concatenate the squares into a returned string. </td>
-		<td><a href="./data/diagrams/square digits/fc">Work in progress</a></td>
+		<td><a href="./data/diagrams/square digits/fc">Flow Chart</a></td>
 	</tr>
 </table>
