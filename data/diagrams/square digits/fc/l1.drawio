@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" scale="1" border="0" version="24.8.6">
+  <diagram name="Page-1" id="z9LAb5Ok6JyxKWv0N6qz">
+    <mxGraphModel dx="819" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-2" value="Input n as integer" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAnWaaNqXIJdnMADpOCD-1" target="IAnWaaNqXIJdnMADpOCD-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="targetPoint" />
+            <mxPoint x="410" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAnWaaNqXIJdnMADpOCD-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.9999999999998" y="200" as="targetPoint" />
+            <mxPoint x="690" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-16" value="string" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-17" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="IAnWaaNqXIJdnMADpOCD-16" source="IAnWaaNqXIJdnMADpOCD-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="294" as="targetPoint" />
+            <mxPoint x="685" y="384" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAnWaaNqXIJdnMADpOCD-16" target="IAnWaaNqXIJdnMADpOCD-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629" y="374" as="targetPoint" />
+            <mxPoint x="629" y="334" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="619" y="350" />
+              <mxPoint x="619" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAnWaaNqXIJdnMADpOCD-31" value="Concatenate into a String the square power of each digit of n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="200" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

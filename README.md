@@ -114,12 +114,12 @@
 		<td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867">Vector Distance</a></td>
 		<td> No </td>
 		<td>Given two 𝑛-dimensional vectors of ﬂoats, return the Euclidean distance between the two vectors in 𝑛-dimensional space. </td>
-		<td><a href="">Work in progress</a></td>
+		<td><a href="./data/diagrams/vector distance/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Digits</a></td>
 		<td> No </td>
 		<td> Given a positive integer, square each digit and concatenate the squares into a returned string. </td>
-		<td><a href="">Work in progress</a></td>
+		<td><a href="./data/diagrams/square digits/fc">Work in progress</a></td>
 	</tr>
 </table>
