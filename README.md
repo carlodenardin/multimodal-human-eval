@@ -10,64 +10,64 @@
 	</tr>
 	<tr>
 		<td>HumanEval/84</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>20%</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td>$${\color{orange}20\%}$$</td>
+		<td>$${\color{red}0\%}$$</td>
 		<td>Return the total sum of the digits of a positive integer in binary form.</td>
 		<td><a href="data/diagrams/p84/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/106</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>80%</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>30%</td>
+		<td>$${\color{yellow}80\%}$$</td>
+		<td>$${\color{orange}30\%}$$</td>
 		<td>Calculate and return a list of size n, where each element at index i is the factorial of i if i is even, or the sum of numbers from 1 to i otherwise.</td>
 		<td><a href="data/diagrams/p106/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/108</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>10%</a> </td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{orange}10\%}$$</td>
 		<td>Count the number of elements in the array that have a sum of digits greater than 0.</td>
 		<td><a href="data/diagrams/p108/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/119</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>40%</td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{red}40\%}$$</td>
 		<td>Check if it is possible to concatenate two strings of parentheses in some order to create a balanced string.</td>
 		<td><a href="data/diagrams/p119/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/120</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>0%</td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{red}0\%}$$</td>
 		<td>Return a sorted list of the maximum k numbers in the given array.</td>
 		<td><a href="data/diagrams/p120/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/126</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>50%</td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{yellow}50\%}$$</td>
 		<td>Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number.</td>
 		<td><a href="data/diagrams/p126/fc">Flow Chart</td>
 	</tr>
 	<tr>
 		<td>HumanEval/150</td>
-		<td><img src="https://placehold.co/15x15/00ff00/00ff00.png"/>100%</td>
-		<td><img src="https://placehold.co/15x15/00ff00/00ff00.png"/>100%</td>
+		<td>$${\color{green}100\%}$$</td>
+		<td>$${\color{green}100\%}$$</td>
 		<td>Return the value of x if n is a prime number and return the value of y otherwise.</td>
 		<td><a href="data/diagrams/p150/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/155</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{red}0\%}$$</td>
 		<td>Return a tuple containing the count of even and odd digits in the given integer.</td>
 		<td><a href="data/diagrams/p155/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/147</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
-		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td>$${\color{red}0\%}$$</td>
+		<td>$${\color{red}0\%}$$</td>
 		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
 		<td><a href="data/diagrams/p147/fc">Flow Chart</a></td>
 	</tr>
@@ -75,7 +75,7 @@
 	<tr>
 		<td>HumanEval/163</td>
 		<td>$${\color{red}0\%}$$</td>
-		<td style="color: yellow;">80%</td>
+		<td>$${\color{yellow}80\%}$$</td>
 		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
 		<td><a href="data/diagrams/p163/fc">Flow Chart</a></td>
 	</tr>
