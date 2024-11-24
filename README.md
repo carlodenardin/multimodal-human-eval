@@ -23,7 +23,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<th width="100">Code Llama</th>
 		<th width="100">GPT-4</th>
 		<th>Description</th>
-		<th>Diagram Available</th>
+		<th>Diagram</th>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p84.md">HumanEval/84</a></td>
@@ -122,7 +122,7 @@ The Push-GP evaluation are reported in the paper [PSB2: The Second Program Synth
 		<th>Problem</th>
 		<th width="100">Solved by Push-GP</th>
 		<th>Description</th>
-		<th>Diagram Available</th>
+		<th>Diagram</th>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867">Vector Distance</a></td>
