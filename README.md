@@ -119,27 +119,33 @@ PSB2
 		<th>Diagram Available</th>
 	</tr>
 	<tr>
-		<td><a href="https://www.codewars.com/kata/5a651865fd56cb55760000e0">Leaders</a></td>
-		<td> No </td>
-		<td> Given a vector of positive integers, return a vector of the leaders in that vector. A leader is deﬁned as a number that is greater than or equal to all the numbers to the right of it. The rightmost element is always a leader. </td>
-		<td>Work in progress</td>
-	</tr>
-	<tr>
 		<td><a href="https://www.codewars.com/kata/5a0b72484bebaefe60001867">Vector Distance</a></td>
-		<td> No </td>
-		<td>Given two 𝑛-dimensional vectors of ﬂoats, return the Euclidean distance between the two vectors in 𝑛-dimensional space. </td>
+		<td>0/100</td>
+		<td>Given two 𝑛-dimensional vectors of ﬂoats, return the Euclidean distance between the two vectors in 𝑛-dimensional space.</td>
 		<td><a href="./data/diagrams/psb2/vector distance/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Digits</a></td>
-		<td> No </td>
-		<td> Given a positive integer, square each digit and concatenate the squares into a returned string. </td>
+		<td>0/100</td>
+		<td>Given a positive integer, square each digit and concatenate the squares into a returned string.</td>
 		<td><a href="./data/diagrams/psb2/square digits/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/5264d2b162488dc400000001">Spin Words</a></td>
-		<td> No </td>
-		<td> Given a string of one or more words (separated by spaces), reverse all of the words that are ﬁve or more letters long and return the resulting string. </td>
+		<td>0/100</td>
+		<td>Given a string of one or more words (separated by spaces), reverse all of the words that are ﬁve or more letters long and return the resulting string. </td>
 		<td><a href="./data/diagrams/psb2/spin words/fc">Flow Chart</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://www.codewars.com/kata/5a651865fd56cb55760000e0">Leaders</a></td>
+		<td>0/100</td>
+		<td> Given a vector of positive integers, return a vector of the leaders in that vector. A leader is deﬁned as a number that is greater than or equal to all the numbers to the right of it. The rightmost element is always a leader. </td>
+		<td>Work in progress</td>
+	</tr>
+	<tr>
+		<td><a href="https://adventofcode.com/2020/day/1">Find Pairs</a></td>
+		<td>4/100</td>
+		<td>Given a vector of integers, return the two elements that sum to a target integer.</td>
+		<td>Work in progress</td>
 	</tr>
 </table>
