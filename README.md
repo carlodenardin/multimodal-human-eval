@@ -13,7 +13,11 @@
 		<td>$$\Large\mathbf{\color{orange}20\%}$$</td>
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>Return the total sum of the digits of a positive integer in binary form.</td>
-		<td><a href="data/diagrams/p84/fc">Flow Chart</a></td>
+		<td>
+			<a href="data/diagrams/p84/fc">Flow Chart</a>
+			, 
+			<a href="data/diagrams/p84/others">Others</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p106.md">HumanEval/106</a></td>
@@ -27,7 +31,11 @@
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{orange}10\%}$$</td>
 		<td>Count the number of elements in the array that have a sum of digits greater than 0.</td>
-		<td><a href="data/diagrams/p108/fc">Flow Chart</a></td>
+		<td>
+			<a href="data/diagrams/p108/fc">Flow Chart</a>
+			, 
+			<a href="data/diagrams/p108/others">Others</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p119.md">HumanEval/119</a></td>
@@ -62,14 +70,22 @@
 		<td>$$\Large\mathbf{\color{green}100\%}$$</td>
 		<td>$$\Large\mathbf{\color{green}100\%}$$</td>
 		<td>Return the value of x if n is a prime number and return the value of y otherwise.</td>
-		<td><a href="data/diagrams/p150/fc">Flow Chart</a></td>
+		<td>
+			<a href="data/diagrams/p150/fc">Flow Chart</a>
+			,
+			<a href="data/diagrams/p150/others">Others</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p155.md">HumanEval/155</a></td>
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>Return a tuple containing the count of even and odd digits in the given integer.</td>
-		<td><a href="data/diagrams/p155/fc">Flow Chart</a></td>
+		<td>
+			<a href="data/diagrams/p155/fc">Flow Chart</a>
+			, 
+			<a href="data/diagrams/p155/others">Others</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p163.md">HumanEval/163</a></td>
