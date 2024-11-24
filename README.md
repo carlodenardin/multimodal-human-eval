@@ -115,4 +115,10 @@
 		<td> Given a positive integer, square each digit and concatenate the squares into a returned string. </td>
 		<td><a href="./data/diagrams/square digits/fc">Flow Chart</a></td>
 	</tr>
+	<tr>
+		<td><a href="https://www.codewars.com/kata/5264d2b162488dc400000001">Spin Words</a></td>
+		<td> No </td>
+		<td> Given a string of one or more words (separated by spaces), reverse all of the words that are ﬁve or more letters long and return the resulting string. </td>
+		<td><a href="./data/diagrams/spin words/fc">Flow Chart</a></td>
+	</tr>
 </table>
