@@ -10,24 +10,31 @@
 	</tr>
 	<tr>
 		<td>HumanEval/84</td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./codellama-34b-instruct/84.md">20%</a> </td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./gpt-4/84.md">0%</a> </td>
-		<td> Return the total sum of the digits of a positive integer in binary form. </td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>20%</td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td>Return the total sum of the digits of a positive integer in binary form.</td>
 		<td><a href="data/diagrams/p84/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/106</td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./codellama-34b-instruct/106.md">80%</a> </td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./gpt-4/106.md">30%</a> </td>
-		<td> Calculate and return a list of size n, where each element at index i is the factorial of i if i is even, or the sum of numbers from 1 to i otherwise. </td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>80%</td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>30%</td>
+		<td>Calculate and return a list of size n, where each element at index i is the factorial of i if i is even, or the sum of numbers from 1 to i otherwise.</td>
 		<td><a href="data/diagrams/p106/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/108</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/108.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./gpt-4/108.md">10%</a> </td>
-		<td> Count the number of elements in the array that have a sum of digits greater than 0. </td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>10%</a> </td>
+		<td>Count the number of elements in the array that have a sum of digits greater than 0.</td>
 		<td><a href="data/diagrams/p108/fc">Flow Chart</a></td>
+	</tr>
+	<tr>
+		<td>HumanEval/119</td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>40%</td>
+		<td>Check if it is possible to concatenate two strings of parentheses in some order to create a balanced string.</td>
+		<td><a href="data/diagrams/p119/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/126</td>
@@ -49,13 +56,6 @@
 		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./gpt-4/155.md">0%</a> </td>
 		<td> Return a tuple containing the count of even and odd digits in the given integer. </td>
 		<td><a href="data/diagrams/p155/fc">Flow Chart</a></td>
-	</tr>
-	<tr>
-		<td>HumanEval/32</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/32.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./gpt-4/32.md">30%</a> </td>
-		<td> The function `find_zero` should find a zero point of a polynomial with given coefficients. </td>
-		<td>Work in progress</td>
 	</tr>
 	<tr>
 		<td>HumanEval/95</td>
