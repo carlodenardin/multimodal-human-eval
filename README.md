@@ -69,30 +69,20 @@
 		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
 		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
 		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
-		<td><a href="data/diagrams//p147/fc">Flow Chart</a></td>
+		<td><a href="data/diagrams/p147/fc">Flow Chart</a></td>
 	</tr>
+	Generate a list of even digits between two given positive integers, in ascending order.
 	<tr>
-		<td>HumanEval/95</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/95.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./gpt-4/95.md">100%</a> </td>
-		<td> Check if all keys in a dictionary are either all lowercase or all uppercase strings, and return True if they are, otherwise return False. </td>
-		<td>Work in progress</td>
+		<td>HumanEval/163</td>
+		<td style="color: red;">0%</td>
+		<td style="color: yellow;">80%</td>
+		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
+		<td><a href="data/diagrams/p163/fc">Flow Chart</a></td>
 	</tr>
-	<tr>
-		<td>HumanEval/130</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/130.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./gpt-4/130.md">0%</a> </td>
-		<td> Return a list of the first n + 1 numbers of the Tribonacci sequence. </td>
-		<td>Work in progress</td>
-	</tr>
-	<tr>
-		<td>HumanEval/156</td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./codellama-34b-instruct/156.md">40%</a> </td>
-		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./gpt-4/156.md">100%</a> </td>
-		<td> Convert a positive integer to its lowercase Roman numeral equivalent. </td>
-		<td>Work in progress</td>
-	</tr>
-</table> PSB2
+</table>
+
+PSB2
+
 <table>
 	<tr>
 		<th>Problem</th>
