@@ -38,23 +38,23 @@
 	</tr>
 	<tr>
 		<td>HumanEval/126</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/126.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/ffea00/ffea00.png" /> <a href="./gpt-4/126.md">50%</a> </td>
-		<td> Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number. </td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>50%</td>
+		<td>Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number.</td>
 		<td><a href="data/diagrams/p126/fc">Flow Chart</td>
 	</tr>
 	<tr>
 		<td>HumanEval/150</td>
-		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./codellama-34b-instruct/150.md">100%</a> </td>
-		<td> <img src="https://placehold.co/15x15/00ff00/00ff00.png" /> <a href="./gpt-4/150.md">100%</a> </td>
-		<td> Return the value of x if n is a prime number and return the value of y otherwise. </td>
+		<td><img src="https://placehold.co/15x15/00ff00/00ff00.png"/>100%</td>
+		<td><img src="https://placehold.co/15x15/00ff00/00ff00.png"/>100%</td>
+		<td>Return the value of x if n is a prime number and return the value of y otherwise.</td>
 		<td><a href="data/diagrams/p150/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
 		<td>HumanEval/155</td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./codellama-34b-instruct/155.md">0%</a> </td>
-		<td> <img src="https://placehold.co/15x15/f03c15/f03c15.png" /> <a href="./gpt-4/155.md">0%</a> </td>
-		<td> Return a tuple containing the count of even and odd digits in the given integer. </td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td>Return a tuple containing the count of even and odd digits in the given integer.</td>
 		<td><a href="data/diagrams/p155/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
