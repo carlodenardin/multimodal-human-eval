@@ -74,7 +74,7 @@
 	Generate a list of even digits between two given positive integers, in ascending order.
 	<tr>
 		<td>HumanEval/163</td>
-		<td>![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `0%`</td>
+		<td>$${\color{red}0%}$$</td>
 		<td style="color: yellow;">80%</td>
 		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
 		<td><a href="data/diagrams/p163/fc">Flow Chart</a></td>
