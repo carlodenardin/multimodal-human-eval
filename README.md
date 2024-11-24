@@ -53,7 +53,7 @@ Additionally, the "Others" folder contains graphical representations created by 
 	<tr>
 		<td><a href="./data/problems/human eval/p119.md">HumanEval/119</a></td>
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
-		<td>$$\Large\mathbf{\color{red}40\%}$$</td>
+		<td>$$\Large\mathbf{\color{orange}40\%}$$</td>
 		<td>Check if it is possible to concatenate two strings of parentheses in some order to create a balanced string.</td>
 		<td><a href="data/diagrams/human eval/p119/fc">Flowcharts</a></td>
 	</tr>
@@ -70,6 +70,13 @@ Additionally, the "Others" folder contains graphical representations created by 
 		<td>$$\Large\mathbf{\color{yellow}50\%}$$</td>
 		<td>Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number.</td>
 		<td><a href="data/diagrams/human eval/p126/fc">Flowcharts</td>
+	</tr>
+	<tr>
+		<td><a href="./data/problems/human eval/p131.md">HumanEval/p131</a></td>
+		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
+		<td>$$\Large\mathbf{\color{green}100\%}$$</td>
+		<td>Return the product of the odd digits in a given positive integer, or 0 if all digits are even.</td>
+		<td><a href="data/diagrams/human eval/p131/fc">Flowcharts</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p147.md">HumanEval/147</a></td>
@@ -99,13 +106,6 @@ Additionally, the "Others" folder contains graphical representations created by 
 			<hr>
 			<a href="data/diagrams/human eval/p155/others">Others</a>
 		</td>
-	</tr>
-	<tr>
-		<td><a href="./data/problems/human eval/p163.md">HumanEval/163</a></td>
-		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
-		<td>$$\Large\mathbf{\color{yellow}80\%}$$</td>
-		<td>Generate a list of even digits between two given positive integers, in ascending order.</td>
-		<td><a href="data/diagrams/human eval/p163/fc">Flowcharts</a></td>
 	</tr>
 </table>
 
