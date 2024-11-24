@@ -1,4 +1,17 @@
-# multimodal-human-eval
+# Multimodal CodeGen Evaluation
+
+This repository provides a benchmark for evaluating multimodal models in the task of code generation from graphical representations. The dataset was built by selecting problems from Human-Eval and PSB2, specifically:
+
+- 10 problems from Human-Eval
+- 5 problems from PSB2
+
+For each problem, various graphical representations have been created:
+
+- Flowcharts with 3 levels of detail
+- Block diagrams (Work in progress)
+- BPMN (Work in progress)
+
+Additionally, the "Others" folder contains graphical representations created by external contributors to the project. Details can be found in the following tables.
 
 <table>
 	<tr>
