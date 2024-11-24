@@ -37,6 +37,13 @@
 		<td><a href="data/diagrams/p119/fc">Flow Chart</a></td>
 	</tr>
 	<tr>
+		<td>HumanEval/120</td>
+		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
+		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>0%</td>
+		<td>Return a sorted list of the maximum k numbers in the given array.</td>
+		<td><a href="data/diagrams/p120/fc">Flow Chart</a></td>
+	</tr>
+	<tr>
 		<td>HumanEval/126</td>
 		<td><img src="https://placehold.co/15x15/f03c15/f03c15.png"/>0%</td>
 		<td><img src="https://placehold.co/15x15/ffea00/ffea00.png"/>50%</td>
