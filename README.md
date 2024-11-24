@@ -13,6 +13,10 @@ For each problem, various graphical representations have been created:
 
 Additionally, the "Others" folder contains graphical representations created by external contributors to the project. Details can be found in the following tables.
 
+### Human Eval Selected Problems
+
+The Code LLama and GPT-4 evaluation are reported [here](https://github.com/jamesmurdza/humaneval-results/tree/main).
+
 <table>
 	<tr>
 		<th>Task</th>
@@ -109,7 +113,9 @@ Additionally, the "Others" folder contains graphical representations created by 
 	</tr>
 </table>
 
-PSB2
+### PSB2 Selected Problems
+
+The Push-GP evaluation are reported in the paper [PSB2: The Second Program Synthesis Benchmark Suite](https://arxiv.org/abs/2106.06086).
 
 <table>
 	<tr>
