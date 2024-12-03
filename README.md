@@ -33,6 +33,8 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>
 			<a href="data/diagrams/human eval/p84/fc">Flowcharts</a>
 			<hr>
+			<a href="data/diagrams/human eval/p84/bpmn">BPMN</a>
+			<hr>
 			<a href="data/diagrams/human eval/p84/others">Others</a>
 		</td>
 	</tr>
@@ -50,6 +52,8 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Count the number of elements in the array that have a sum of digits greater than 0.</td>
 		<td>
 			<a href="data/diagrams/human eval/p108/fc">Flowcharts</a>
+			<hr>
+			<a href="data/diagrams/human eval/p108/bpmn">BPMN</a>
 			<hr>
 			<a href="data/diagrams/human eval/p108/others">Others</a>
 		</td>
