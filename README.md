@@ -101,6 +101,8 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>
 			<a href="data/diagrams/human eval/p150/fc">Flowcharts</a>
 			<hr>
+			<a href="data/diagrams/human eval/p150/bpmn">BPMN</a>
+			<hr>
 			<a href="data/diagrams/human eval/p150/others">Others</a>
 		</td>
 	</tr>
