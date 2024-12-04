@@ -43,7 +43,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Calculate and return a list of size n, where each element at index i is the factorial of i if i is even, or the sum of numbers from 1 to i otherwise.</td>
 		<td><a href="data/diagrams/human eval/p106/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p106/bpmn">BPMN</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p108.md">HumanEval/108</a></td>
@@ -61,7 +61,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Check if it is possible to concatenate two strings of parentheses in some order to create a balanced string.</td>
 		<td><a href="data/diagrams/human eval/p119/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p119/bpmn">BPMN</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p120.md">HumanEval/120</a></td>
@@ -70,7 +70,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return a sorted list of the maximum k numbers in the given array.</td>
 		<td><a href="data/diagrams/human eval/p120/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p120/bpmn">BPMN</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p126.md">HumanEval/126</a></td>
@@ -79,7 +79,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number.</td>
 		<td><a href="data/diagrams/human eval/p126/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p126/bpmn">BPMN</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p131.md">HumanEval/p131</a></td>
@@ -88,7 +88,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return the product of the odd digits in a given positive integer, or 0 if all digits are even.</td>
 		<td><a href="data/diagrams/human eval/p131/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p131/bpmn">BPMN</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p147.md">HumanEval/147</a></td>
@@ -97,7 +97,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Calculate the number of triples in an array where the sum of the elements is a multiple of 3.</td>
 		<td><a href="data/diagrams/human eval/p84/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p84/bpmn">NA</a></td>
-		<td><a href="#">NA</a></td>
+		<td><a href="">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p150.md">HumanEval/150</a></td>
