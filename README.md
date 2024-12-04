@@ -121,7 +121,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 
 ### PSB2 Selected Problems
 
-The Push-GP evaluation are reported in the paper [PSB2: The Second Program Synthesis Benchmark Suite](https://arxiv.org/abs/2106.06086).
+TODO: Check metric
 
 <table>
 	<tr>
