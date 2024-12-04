@@ -88,7 +88,11 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{green}100\%}$$</td>
 		<td>Return the product of the odd digits in a given positive integer, or 0 if all digits are even.</td>
-		<td><a href="data/diagrams/human eval/p131/fc">Flowcharts</a></td>
+		<td>
+			<a href="data/diagrams/human eval/p131/fc">Flowcharts</a>
+			<hr>
+			<a href="data/diagrams/human eval/p131/bpmn">BPMN</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p147.md">HumanEval/147</a></td>
