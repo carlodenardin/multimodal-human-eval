@@ -63,7 +63,11 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{orange}40\%}$$</td>
 		<td>Check if it is possible to concatenate two strings of parentheses in some order to create a balanced string.</td>
-		<td><a href="data/diagrams/human eval/p119/fc">Flowcharts</a></td>
+		<td>
+			<a href="data/diagrams/human eval/p119/fc">Flowcharts</a>
+			<hr>
+			<a href="data/diagrams/human eval/p119/bpmn">BPMN</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p120.md">HumanEval/120</a></td>
