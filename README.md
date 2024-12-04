@@ -77,11 +77,9 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{yellow}50\%}$$</td>
 		<td>Check if a given list of numbers is sorted in ascending order and does not contain more than one duplicate of the same number.</td>
-		<td>
-			<a href="data/diagrams/human eval/p126/fc">Flowcharts</a>
-			<hr>
-			<a href="data/diagrams/human eval/p126/bpmn">BPMN</a>
-		</td>
+		<td><a href="data/diagrams/human eval/p126/fc">Flowcharts</a></td>
+		<td><a href="data/diagrams/human eval/p126/bpmn">BPMN</a></td>
+		<td><a href="#">NA</a></td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p131.md">HumanEval/p131</a></td>
