@@ -70,7 +70,11 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>$$\Large\mathbf{\color{red}0\%}$$</td>
 		<td>Return a sorted list of the maximum k numbers in the given array.</td>
-		<td><a href="data/diagrams/human eval/p120/fc">Flowcharts</a></td>
+		<td>
+			<a href="data/diagrams/human eval/p120/fc">Flowcharts</a>
+			<hr>
+			<a href="data/diagrams/human eval/p120/bpmn">BPMN</a>
+		</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p126.md">HumanEval/126</a></td>
