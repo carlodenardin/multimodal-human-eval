@@ -167,7 +167,7 @@ TODO: Check metric
 	<tr>
 		<td><a href="https://adventofcode.com/2020/day/1">Find Pairs</a></td>
 		<td>N/A</td>
-		<td>Given a vector of integers, return the two elements that sum to a target integer.</td>
+		<td>Given a vector of integers, return the position of two elements that sum to a target integer.</td>
 		<td>Work in progress</td>
 		<td>N/A</td>
 		<td>N/A</td>
