@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
+  <diagram name="Page-1" id="gcOh2L13ghurHqlArtQZ">
+    <mxGraphModel dx="1050" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkoyU2fwOPBfZemE1w7x-359" target="pkoyU2fwOPBfZemE1w7x-360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-359" value="Receive an integer as input&lt;div&gt;(0 &amp;lt;= n)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkoyU2fwOPBfZemE1w7x-360" target="pkoyU2fwOPBfZemE1w7x-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-360" value="Sum the digits&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-365" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkoyU2fwOPBfZemE1w7x-361" target="pkoyU2fwOPBfZemE1w7x-362">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-361" value="Convert it into binary" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pkoyU2fwOPBfZemE1w7x-362" value="Return result as a string" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
