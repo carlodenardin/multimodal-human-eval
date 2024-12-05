@@ -8,8 +8,8 @@ This repository provides a benchmark for evaluating multimodal models in the tas
 For each problem, various graphical representations have been created:
 
 - Flowcharts with 3 levels of detail
-- Block diagrams (Work in progress)
-- BPMN (Work in progress)
+- BPMN with 3 levels of detail
+- Block diagrams with 1 level of detail
 
 Additionally, the "Others" folder contains graphical representations created by external contributors to the project. Details can be found in the following tables.
 
@@ -25,6 +25,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<th>Description</th>
 		<th>Flowcharts</th>
 		<th>BPMN</th>
+		<th>Block</th>
 		<th>Others</th>
 	</tr>
 	<tr>
@@ -34,6 +35,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return the total sum of the digits of a positive integer in binary form.</td>
 		<td><a href="data/diagrams/human eval/p84/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p84/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td><a href="data/diagrams/human eval/p84/others">Others</a></td>
 	</tr>
 	<tr>
@@ -44,6 +46,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td><a href="data/diagrams/human eval/p106/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p106/bpmn">BPMN</a></td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p108.md">HumanEval/108</a></td>
@@ -52,6 +55,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Count the number of elements in the array that have a sum of digits greater than 0.</td>
 		<td><a href="data/diagrams/human eval/p108/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p108/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td><a href="data/diagrams/human eval/p108/others">Others</a></td>
 	</tr>
 	<tr>
@@ -62,6 +66,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td><a href="data/diagrams/human eval/p119/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p119/bpmn">BPMN</a></td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p120.md">HumanEval/120</a></td>
@@ -70,6 +75,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return a sorted list of the maximum k numbers in the given array.</td>
 		<td><a href="data/diagrams/human eval/p120/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p120/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
 	<tr>
@@ -80,6 +86,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td><a href="data/diagrams/human eval/p126/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p126/bpmn">BPMN</a></td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p131.md">HumanEval/p131</a></td>
@@ -88,6 +95,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return the product of the odd digits in a given positive integer, or 0 if all digits are even.</td>
 		<td><a href="data/diagrams/human eval/p131/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p131/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
 	<tr>
@@ -98,6 +106,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td><a href="data/diagrams/human eval/p147/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p147/bpmn">BPMN</a></td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="./data/problems/human eval/p150.md">HumanEval/150</a></td>
@@ -106,6 +115,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return the value of x if n is a prime number and return the value of y otherwise.</td>
 		<td><a href="data/diagrams/human eval/p150/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p150/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td><a href="data/diagrams/human eval/p150/others">Others</a></td>
 	</tr>
 	<tr>
@@ -115,6 +125,7 @@ The Code LLama and GPT-4 evaluation are reported [here](https://github.com/james
 		<td>Return a tuple containing the count of even and odd digits in the given integer.</td>
 		<td><a href="data/diagrams/human eval/p155/fc">Flowcharts</a></td>
 		<td><a href="data/diagrams/human eval/p155/bpmn">BPMN</a></td>
+		<td>N/A</td>
 		<td><a href="data/diagrams/human eval/p155/others">Others</a></td>
 	</tr>
 </table>
@@ -130,6 +141,7 @@ TODO: Check metric
 		<th>Description</th>
 		<th>Flowcharts</th>
 		<th>BPMN</th>
+		<th>Block</th>
 		<th>Others</th>
 	</tr>
 	<tr>
@@ -137,6 +149,7 @@ TODO: Check metric
 		<td>N/A</td>
 		<td>Given two 𝑛-dimensional vectors of ﬂoats, return the Euclidean distance between the two vectors in 𝑛-dimensional space.</td>
 		<td><a href="./data/diagrams/psb2/vector distance/fc">Flowcharts</a></td>
+		<td>N/A</td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
@@ -147,12 +160,14 @@ TODO: Check metric
 		<td><a href="./data/diagrams/psb2/square digits/fc">Flowcharts</a></td>
 		<td>N/A</td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/5264d2b162488dc400000001">Spin Words</a></td>
 		<td>N/A</td>
 		<td>Given a string of one or more words (separated by spaces), reverse all of the words that are ﬁve or more letters long and return the resulting string. </td>
 		<td><a href="./data/diagrams/psb2/spin words/fc">Flowcharts</a></td>
+		<td>N/A</td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
@@ -163,12 +178,14 @@ TODO: Check metric
 		<td><a href="./data/diagrams/psb2/leaders/fc">Flowcharts</a></td>
 		<td>N/A</td>
 		<td>N/A</td>
+		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="https://adventofcode.com/2020/day/1">Find Pairs</a></td>
 		<td>N/A</td>
 		<td>Given a vector of integers, return the position of two elements that sum to a target integer.</td>
 		<td><a href="./data/diagrams/psb2/find pairs/fc">Flowcharts</a></td>
+		<td>N/A</td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
