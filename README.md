@@ -158,7 +158,7 @@ TODO: Check metric
 		<td>N/A</td>
 		<td>Given a positive integer, square each digit and concatenate the squares into a returned string.</td>
 		<td><a href="./data/diagrams/psb2/square digits/fc">Flowcharts</a></td>
-		<td>N/A</td>
+		<td><a href="./data/diagrams/psb2/square digits/bpmn">BPMN</a></td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
