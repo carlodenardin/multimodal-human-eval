@@ -152,7 +152,6 @@ TODO: Check metric: https://link.springer.com/chapter/10.1007/978-3-031-56957-9_
 		<td><a href="./data/diagrams/psb2/vector distance/bpmn">BPMN</a></td>
 		<td><a href="./data/diagrams/psb2/vector distance/block">Block</a></td>
 		<td>N/A</td>
-		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Digits</a></td>
@@ -161,7 +160,6 @@ TODO: Check metric: https://link.springer.com/chapter/10.1007/978-3-031-56957-9_
 		<td><a href="./data/diagrams/psb2/square digits/fc">Flowcharts</a></td>
 		<td><a href="./data/diagrams/psb2/square digits/bpmn">BPMN</a></td>
 		<td><a href="./data/diagrams/psb2/square digits/block">Block</a></td>
-		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
 	<tr>
@@ -172,7 +170,6 @@ TODO: Check metric: https://link.springer.com/chapter/10.1007/978-3-031-56957-9_
 		<td><a href="./data/diagrams/psb2/spin words/bpmn">BPMN</a></td>
 		<td><a href="./data/diagrams/psb2/spin words/block">Block</a></td>
 		<td>N/A</td>
-		<td>N/A</td>
 	</tr>
 	<tr>
 		<td><a href="https://www.codewars.com/kata/5a651865fd56cb55760000e0">Leaders</a></td>
@@ -181,7 +178,6 @@ TODO: Check metric: https://link.springer.com/chapter/10.1007/978-3-031-56957-9_
 		<td><a href="./data/diagrams/psb2/leaders/fc">Flowcharts</a></td>
 		<td><a href="./data/diagrams/psb2/leaders/bpmn">BPMN</a></td>
 		<td><a href="./data/diagrams/psb2/leaders/block">Block</a></td>
-		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
 	<tr>
