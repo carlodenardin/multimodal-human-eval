@@ -160,7 +160,7 @@ TODO: Check metric
 		<td><a href="https://www.codewars.com/kata/5a651865fd56cb55760000e0">Leaders</a></td>
 		<td>N/A</td>
 		<td>Given a vector of positive integers, return a vector of the leaders in that vector. A leader is deﬁned as a number that is greater than or equal to all the numbers to the right of it. The rightmost element is always a leader. </td>
-		<td>Work in progress</td>
+		<td><a href="./data/diagrams/psb2/leaders/fc">Flowcharts</a></td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
