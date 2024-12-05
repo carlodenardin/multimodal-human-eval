@@ -149,7 +149,7 @@ TODO: Check metric
 		<td>N/A</td>
 		<td>Given two 𝑛-dimensional vectors of ﬂoats, return the Euclidean distance between the two vectors in 𝑛-dimensional space.</td>
 		<td><a href="./data/diagrams/psb2/vector distance/fc">Flowcharts</a></td>
-		<td>N/A</td>
+		<td><a href="./data/diagrams/psb2/vector distance/bpmn">BPMN</a></td>
 		<td>N/A</td>
 		<td>N/A</td>
 	</tr>
