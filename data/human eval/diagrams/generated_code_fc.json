@@ -1,0 +1,7 @@
+[
+  {
+    "function": "p84",
+    "generated_code": "```python\ndef p84(n):\n    sum_digits = sum(int(digit) for digit in str(n))\n    return bin(sum_digits)[2:]\n```"
+  },
+  { "function": "p106", "generated_code": "" }
+]

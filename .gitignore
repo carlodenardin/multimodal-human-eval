@@ -4,3 +4,8 @@ multimodal_human_eval.egg-info
 .env
 /data/human-eval.json
 .DS_Store
+
+src/generate_cases_humaneval.py
+src/generate_cases_psb2.py
+
+__pycache__
