@@ -5,7 +5,7 @@ from typing import List, Union
 import tqdm
 import numpy as np
 
-from multimodal_human_eval.data import read_problems, stream_jsonl, write_jsonl
+from ..utils import read_problems, stream_jsonl, write_jsonl
 from multimodal_human_eval.execution import check_correctness
 
 
