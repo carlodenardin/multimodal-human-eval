@@ -55,7 +55,7 @@ def generate_code(model: Model):
         ]
 
         write_jsonl(
-            "./data/human eval/diagrams/generated_code_fc.jsonl", samples)
+            "./data/human eval/diagrams/generated_code.jsonl", samples)
 
     elif model.name == Model.PALIGEMMA.name:
         pass
