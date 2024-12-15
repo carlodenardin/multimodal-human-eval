@@ -1,8 +1,6 @@
 from transformers import AutoProcessor, PaliGemmaForConditionalGeneration, BitsAndBytesConfig
 from PIL import Image
 
-import requests
-import torch
 import tqdm
 
 from utils.const import PROMPT_INSTRUCTION
