@@ -1,0 +1,8 @@
+{"success": true, "error": "", "input": 7, "output": [0, 1], "expected output": [0, 1]}
+{"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -78, "output": {"success": true, "error": "", "input": 7, "output": [0, 1], "expected output": [0, 1]}, "expected output": [1, 1]}
+{"success": true, "error": "", "input": 3452, "output": [2, 2], "expected output": [2, 2]}
+{"success": true, "error": "", "input": 346211, "output": [3, 3], "expected output": [3, 3]}
+{"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -345821, "output": {"success": true, "error": "", "input": 346211, "output": [3, 3], "expected output": [3, 3]}, "expected output": [3, 3]}
+{"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -2, "output": {"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -345821, "output": {"success": true, "error": "", "input": 346211, "output": [3, 3], "expected output": [3, 3]}, "expected output": [3, 3]}, "expected output": [1, 0]}
+{"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -45347, "output": {"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -2, "output": {"success": false, "error": "Exception: invalid literal for int() with base 10: '-'", "input": -345821, "output": {"success": true, "error": "", "input": 346211, "output": [3, 3], "expected output": [3, 3]}, "expected output": [3, 3]}, "expected output": [1, 0]}, "expected output": [2, 3]}
+{"success": true, "error": "", "input": 0, "output": [1, 0], "expected output": [1, 0]}

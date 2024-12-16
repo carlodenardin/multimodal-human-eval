@@ -1,0 +1,50 @@
+{"success": false, "error": "Output different from Expected Output", "input": 20, "output": 255, "expected output": 321}
+{"success": true, "error": "", "input": 3, "output": 0, "expected output": 0}
+{"success": true, "error": "", "input": 0, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 23, "output": 420, "expected output": 511}
+{"success": false, "error": "Output different from Expected Output", "input": 8, "output": 5, "expected output": 11}
+{"success": false, "error": "Output different from Expected Output", "input": 7, "output": 4, "expected output": 10}
+{"success": false, "error": "Output different from Expected Output", "input": 7, "output": 4, "expected output": 10}
+{"success": false, "error": "Output different from Expected Output", "input": 4, "output": 0, "expected output": 1}
+{"success": false, "error": "Output different from Expected Output", "input": 23, "output": 420, "expected output": 511}
+{"success": true, "error": "", "input": 3, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 21, "output": 321, "expected output": 399}
+{"success": false, "error": "Output different from Expected Output", "input": 23, "output": 420, "expected output": 511}
+{"success": false, "error": "Output different from Expected Output", "input": 17, "output": 140, "expected output": 185}
+{"success": true, "error": "", "input": 2, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 18, "output": 185, "expected output": 240}
+{"success": false, "error": "Output different from Expected Output", "input": 13, "output": 60, "expected output": 88}
+{"success": true, "error": "", "input": 1, "output": 0, "expected output": 0}
+{"success": true, "error": "", "input": 0, "output": 0, "expected output": 0}
+{"success": true, "error": "", "input": 2, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 6, "output": 1, "expected output": 4}
+{"success": false, "error": "Output different from Expected Output", "input": 7, "output": 4, "expected output": 10}
+{"success": false, "error": "Output different from Expected Output", "input": 16, "output": 130, "expected output": 175}
+{"success": false, "error": "Output different from Expected Output", "input": 19, "output": 240, "expected output": 306}
+{"success": true, "error": "", "input": 0, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 17, "output": 140, "expected output": 185}
+{"success": false, "error": "Output different from Expected Output", "input": 6, "output": 1, "expected output": 4}
+{"success": false, "error": "Output different from Expected Output", "input": 22, "output": 399, "expected output": 490}
+{"success": false, "error": "Output different from Expected Output", "input": 20, "output": 255, "expected output": 321}
+{"success": false, "error": "Output different from Expected Output", "input": 22, "output": 399, "expected output": 490}
+{"success": false, "error": "Output different from Expected Output", "input": 17, "output": 140, "expected output": 185}
+{"success": false, "error": "Output different from Expected Output", "input": 13, "output": 60, "expected output": 88}
+{"success": false, "error": "Output different from Expected Output", "input": 7, "output": 4, "expected output": 10}
+{"success": false, "error": "Output different from Expected Output", "input": 14, "output": 66, "expected output": 94}
+{"success": false, "error": "Output different from Expected Output", "input": 18, "output": 185, "expected output": 240}
+{"success": false, "error": "Output different from Expected Output", "input": 8, "output": 5, "expected output": 11}
+{"success": false, "error": "Output different from Expected Output", "input": 25, "output": 616, "expected output": 736}
+{"success": true, "error": "", "input": 0, "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": 24, "output": 511, "expected output": 616}
+{"success": false, "error": "Output different from Expected Output", "input": 25, "output": 616, "expected output": 736}
+{"success": false, "error": "Output different from Expected Output", "input": 5, "output": 0, "expected output": 1}
+{"success": false, "error": "Output different from Expected Output", "input": 22, "output": 399, "expected output": 490}
+{"success": false, "error": "Output different from Expected Output", "input": 13, "output": 60, "expected output": 88}
+{"success": false, "error": "Output different from Expected Output", "input": 10, "output": 21, "expected output": 36}
+{"success": false, "error": "Output different from Expected Output", "input": 8, "output": 5, "expected output": 11}
+{"success": false, "error": "Output different from Expected Output", "input": 4, "output": 0, "expected output": 1}
+{"success": false, "error": "Output different from Expected Output", "input": 6, "output": 1, "expected output": 4}
+{"success": false, "error": "Output different from Expected Output", "input": 24, "output": 511, "expected output": 616}
+{"success": false, "error": "Output different from Expected Output", "input": 10, "output": 21, "expected output": 36}
+{"success": true, "error": "", "input": 3, "output": 0, "expected output": 0}
+{"success": true, "error": "", "input": 2, "output": 0, "expected output": 0}

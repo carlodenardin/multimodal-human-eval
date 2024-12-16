@@ -1,0 +1,50 @@
+{"success": true, "error": "", "input": [13, 17, 28, 31, 69, 86, 94], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [4, 3, 11, 27, 29, 64, 77, 3, 71, 25, 91, 83, 89], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 11, 12, 13, 19, 20, 27, 35, 43, 44, 45, 48, 54, 89, 97], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [0, 1, 1, 1, 3, 4, 5, 6, 8, 8, 9, 9, 10, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [10, 29, 12, 48, 35, 58, 81, 46, 20], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [85, 34, 89, 87, 82, 9], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [20, 34, 48, 59, 71, 81, 88], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [98, 99, 7, 29, 4, 40, 51, 34, 8, 27], "output": false, "expected output": false}
+{"success": false, "error": "Output different from Expected Output", "input": [2, 2, 3, 3, 4, 6, 7, 7, 10, 10], "output": false, "expected output": true}
+{"success": true, "error": "", "input": [0, 1, 1, 1, 2, 2, 2, 3, 5, 6, 6, 6, 7, 8, 9, 9, 10, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [59, 67, 32, 70, 1, 87, 92, 14, 87, 68, 96, 34, 98, 82, 43, 14, 37, 55, 20], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [1, 2, 4, 8, 8, 8, 10, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 67, 69, 76, 99], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [39, 30, 7, 30, 72, 10, 10, 93, 62, 8, 97], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [21, 25, 27, 33, 39, 51, 54, 67, 69, 70, 77, 88, 91, 93, 96], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [0, 0, 1, 1, 3, 3, 3, 3, 5, 7, 8, 8, 9, 9], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [7, 29, 8, 4, 42, 9, 65, 30, 35, 85, 62, 27, 69, 16, 92, 73, 73, 60, 31, 100], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [12, 55, 84], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [59, 93, 6, 86, 83, 82, 12, 7, 51, 93, 43, 13, 31], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [57, 17, 54, 23, 35, 59, 31, 9, 56, 70, 12, 6, 83, 69, 1, 11, 96], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 7, 21, 27, 33, 36, 48, 49, 51, 54, 58, 61, 89, 100], "output": true, "expected output": true}
+{"success": false, "error": "Output different from Expected Output", "input": [0, 0, 0, 0, 2, 3, 3, 4, 5, 7, 7, 8, 8, 8, 9, 9, 10], "output": true, "expected output": false}
+{"success": true, "error": "", "input": [10, 23, 8, 76, 8, 86, 30, 51, 15, 72, 31, 74, 76, 5, 79, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 1, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 7, 10, 10, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [1, 3, 8], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [8, 20, 31, 36, 38, 47, 56, 69, 78, 83, 90], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 1, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 8, 9, 10, 10, 10], "output": false, "expected output": false}
+{"success": false, "error": "Output different from Expected Output", "input": [0, 0, 0, 1, 4, 5, 6, 10], "output": true, "expected output": false}
+{"success": false, "error": "Output different from Expected Output", "input": [0, 1, 1, 2, 6, 7, 8, 8], "output": false, "expected output": true}
+{"success": true, "error": "", "input": [0, 5, 8, 9], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [39], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [45], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [85, 13, 45, 99, 71, 52, 79], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 2, 2, 2, 5, 6, 6], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [0, 1, 2, 3, 4, 6, 7], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [44, 39, 29, 28, 3, 84, 24, 51, 42, 35, 8, 98, 35, 44], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [3, 4, 13, 14, 22, 33, 40, 42, 44, 55, 74, 76, 77, 93, 100], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [0, 5, 8, 24, 25, 32, 46, 55, 66, 68, 85, 87, 90, 92, 94], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [4, 4, 8], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [16, 22, 24, 48, 53, 70, 85, 86, 95], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [0, 26, 27, 36, 38, 41, 55, 56, 59, 60, 65, 74, 77, 83, 86, 100], "output": true, "expected output": true}
+{"success": false, "error": "Output different from Expected Output", "input": [1, 4, 8, 10, 10], "output": false, "expected output": true}
+{"success": true, "error": "", "input": [3, 5, 18, 25, 28, 39, 86], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [78, 98, 9, 58, 53, 80, 73, 24, 91, 89, 49, 63, 51, 31, 18], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [28, 54, 99], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [59, 6, 71, 31, 15, 58, 17, 59, 85, 67, 71, 76, 40, 96, 56, 78], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [2, 3, 3, 4, 4, 7, 7, 7, 7, 8, 8, 10, 10], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [91, 36], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [40, 69, 10, 17, 19, 29, 49, 88, 19, 90], "output": false, "expected output": false}

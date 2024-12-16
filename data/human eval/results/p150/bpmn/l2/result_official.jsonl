@@ -1,0 +1,10 @@
+{"success": false, "error": "Output different from Expected Output", "input": [7, 34, 12], "output": 12, "expected output": 34}
+{"success": false, "error": "Output different from Expected Output", "input": [15, 8, 5], "output": 8, "expected output": 5}
+{"success": false, "error": "Output different from Expected Output", "input": [3, 33, 5212], "output": 5212, "expected output": 33}
+{"success": false, "error": "Output different from Expected Output", "input": [1259, 3, 52], "output": 52, "expected output": 3}
+{"success": false, "error": "Output different from Expected Output", "input": [7919, -1, 12], "output": 12, "expected output": -1}
+{"success": false, "error": "Output different from Expected Output", "input": [3609, 1245, 583], "output": 1245, "expected output": 583}
+{"success": false, "error": "Output different from Expected Output", "input": [91, 56, 129], "output": 56, "expected output": 129}
+{"success": false, "error": "Output different from Expected Output", "input": [6, 34, 1234], "output": 34, "expected output": 1234}
+{"success": true, "error": "", "input": [1, 2, 0], "output": 0, "expected output": 0}
+{"success": false, "error": "Output different from Expected Output", "input": [2, 2, 0], "output": 0, "expected output": 2}

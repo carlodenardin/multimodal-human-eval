@@ -1,0 +1,11 @@
+{"success": false, "error": "Output different from Expected Output", "input": [[-4, -3, 5], 3], "output": -4, "expected output": [-4, -3, 5]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-4, 4, 4], 2], "output": 4, "expected output": [4, 4]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-3, -2, -1, 1, 1, 2, 2], 1], "output": 2, "expected output": [2]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-123, -3, 0, 1, 2, 20, 123], 3], "output": 2, "expected output": [2, 20, 123]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-123, -3, 0, 1, 2, 20], 4], "output": 0, "expected output": [0, 1, 2, 20]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-13, -8, 0, 0, 3, 5, 15], 7], "output": -13, "expected output": [-13, -8, 0, 0, 3, 5, 15]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-10, -1, 0, 2, 3, 5], 2], "output": 3, "expected output": [3, 5]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-7, 0, 1, 5], 1], "output": 5, "expected output": [5]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-4, 4], 2], "output": -4, "expected output": [-4, 4]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-10, 10], 2], "output": -10, "expected output": [-10, 10]}
+{"success": false, "error": "Output different from Expected Output", "input": [[-400, -23, 0, 1, 2, 3, 243], 0], "output": -400, "expected output": []}

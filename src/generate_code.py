@@ -4,11 +4,9 @@ from const import Model, HUMAN_EVAL_URL, PROBLEMS, DIAGRAMS, DL
 
 from utils import trim_code, write_jsonl
 
-client = OpenAI()
+from tqdm import tqdm
 
-# https://github.com/carlodenardin/multimodal-human-eval/blob/main/data/human%20eval/diagrams/p84/fc/l1.drawio.png
-# https://github.com/carlodenardin/multimodal-human-eval/blob/main/data/human%20eval/diagrams/p84/bpmn/l1.drawio.png
-# https://github.com/carlodenardin/multimodal-human-eval/blob/main/data/human%20eval/diagrams/p84/block/l1.drawio.png
+client = OpenAI()
 
 
 def generate_code_openai(problem: str, url: str):
@@ -29,6 +27,7 @@ def generate_code_openai(problem: str, url: str):
                             }
                         },
                 ],
+                "temperature": 0.7,
             }
         ],
     )
@@ -49,9 +48,9 @@ def generate_code(model: Model):
                 generated_code=generate_code_openai(
                     problem, f"{HUMAN_EVAL_URL}/{problem}/{diagram}/{dl}.drawio.png"),
             )
-            for problem in PROBLEMS
-            for diagram in DIAGRAMS
-            for dl in (DL if diagram != 'block' else ['l1'])
+            for problem in tqdm(PROBLEMS, desc='Processing problems', disable=True)
+            for diagram in tqdm(DIAGRAMS, desc='Processing diagrams')
+            for dl in tqdm((DL if diagram != 'block' else ['l1']), desc='Processing diagram levels', disable=True)
         ]
 
         write_jsonl(

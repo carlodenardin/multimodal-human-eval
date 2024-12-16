@@ -1,0 +1,4 @@
+{"success": false, "error": "Output different from Expected Output", "input": 5, "output": 0, "expected output": 1}
+{"success": false, "error": "Output different from Expected Output", "input": 6, "output": 1, "expected output": 4}
+{"success": false, "error": "Output different from Expected Output", "input": 10, "output": 21, "expected output": 36}
+{"success": false, "error": "Output different from Expected Output", "input": 100, "output": 51216, "expected output": 53361}

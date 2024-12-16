@@ -4,7 +4,7 @@ import pkg_resources
 from setuptools import setup
 
 setup(
-    name="multimodal-human-eval",
+    name="src",
     install_requires=[
         str(r)
         for r in pkg_resources.parse_requirements(
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "evaluate_functional_correctness = multimodal_human_eval.evaluate_functional_correctness",
+            "evaluate_code = src.evaluate_code:evaluate_code",
         ]
     },
 )

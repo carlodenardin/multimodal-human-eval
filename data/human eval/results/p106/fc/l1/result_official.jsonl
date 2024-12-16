@@ -1,0 +1,4 @@
+{"success": false, "error": "Output different from Expected Output", "input": 5, "output": [1, 1, 2, 6, 24], "expected output": [1, 2, 6, 24, 15]}
+{"success": false, "error": "Output different from Expected Output", "input": 7, "output": [1, 1, 2, 6, 24, 15, 720], "expected output": [1, 2, 6, 24, 15, 720, 28]}
+{"success": true, "error": "", "input": 1, "output": [1], "expected output": [1]}
+{"success": false, "error": "Output different from Expected Output", "input": 3, "output": [1, 1, 2], "expected output": [1, 2, 6]}

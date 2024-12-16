@@ -1,0 +1,7 @@
+{"success": true, "error": "", "input": 5, "output": 5, "expected output": 5}
+{"success": true, "error": "", "input": 54, "output": 5, "expected output": 5}
+{"success": true, "error": "", "input": 120, "output": 1, "expected output": 1}
+{"success": true, "error": "", "input": 5014, "output": 5, "expected output": 5}
+{"success": true, "error": "", "input": 98765, "output": 315, "expected output": 315}
+{"success": true, "error": "", "input": 5576543, "output": 2625, "expected output": 2625}
+{"success": true, "error": "", "input": 2468, "output": 0, "expected output": 0}

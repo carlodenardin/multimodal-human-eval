@@ -1,0 +1,13 @@
+{"success": true, "error": "", "input": [5], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 2, 3, 4, 5], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 3, 2, 4, 5], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [1, 2, 3, 4, 5, 6], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 2, 3, 4, 5, 6, 7], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 3, 2, 4, 5, 6, 7], "output": false, "expected output": false}
+{"success": true, "error": "", "input": [], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [3, 2, 1], "output": false, "expected output": false}
+{"success": false, "error": "Output different from Expected Output", "input": [1, 2, 2, 2, 3, 4], "output": true, "expected output": false}
+{"success": false, "error": "Output different from Expected Output", "input": [1, 2, 3, 3, 3, 4], "output": true, "expected output": false}
+{"success": true, "error": "", "input": [1, 2, 2, 3, 3, 4], "output": true, "expected output": true}
+{"success": true, "error": "", "input": [1, 2, 3, 4], "output": true, "expected output": true}

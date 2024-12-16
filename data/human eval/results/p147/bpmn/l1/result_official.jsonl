@@ -1,0 +1,4 @@
+{"success": true, "error": "", "input": 5, "output": 1, "expected output": 1}
+{"success": true, "error": "", "input": 6, "output": 4, "expected output": 4}
+{"success": true, "error": "", "input": 10, "output": 36, "expected output": 36}
+{"success": true, "error": "", "input": 100, "output": 53361, "expected output": 53361}
