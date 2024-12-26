@@ -1,5 +1,4 @@
 from itertools import product
-from openai import OpenAI
 from const import Model, PROMPT, HUMAN_EVAL_URL, BEGIN_TRIM, END_TRIM
 
 from transformers import (
@@ -17,8 +16,6 @@ PROBLEMS = ['p84', 'p106', 'p108', 'p119', 'p120',
             'p126', 'p131', 'p147', 'p150', 'p155']
 DIAGRAMS = ['fc', 'bpmn', 'block']
 LEVELS = ['l1', 'l2', 'l3']
-
-client = OpenAI()
 
 
 class CodeGenerator:
@@ -125,7 +122,7 @@ class CodeGenerator:
             f.write(json.dumps(record) + "\n")
 
     def generate_code_openai(self, image):
-
+        """
         completion = client.chat.completions.create(
             model="gpt-4o-mini-2024-07-18",
             messages=[
@@ -144,8 +141,8 @@ class CodeGenerator:
                 }
             ],
         )
-
-        return self.trim_code(completion.choices[0].message.content)
+        """
+        return self.trim_code("completion.choices[0].message.content")
 
     def generate_code_paligemma(self, image_url: str) -> str:
         image = load_image(image_url)
