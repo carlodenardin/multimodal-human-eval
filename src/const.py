@@ -7,12 +7,16 @@ class Model(Enum):
     OPENAI = 3
 
 
-HUMAN_EVAL_URL = "https://raw.githubusercontent.com/carlodenardin/multimodal-human-eval/refs/heads/main/data/human%20eval/diagrams"
+BEGIN_TRIM = "```python"
+END_TRIM = "```"
+
+HUMAN_EVAL_URL = "https://raw.githubusercontent.com/carlodenardin/multimodal-human-eval/refs/heads/main/data/human_eval/diagrams"
 
 
 PROMPT = (
     f"Given a diagram that solves a problem, generate a runnable "
-    f"python that solve it. The code must follow some rules:\n"
+    f"python function called 'func' that solve it. The code must follow "
+    f"some rules:\n"
     f"- The function should get the inputs as parameters and "
     f"return the output;\n"
     f"- The function must be wrapped into ```python AND ```\n"

@@ -1,0 +1,5 @@
+{"problem": "p84", "diagram_type": "fc", "diagram_level": "l1", "generated_code": " should be written in a single file."}
+{"problem": "p84", "diagram_type": "fc", "diagram_level": "l2", "generated_code": " should be written in a single file."}
+{"problem": "p84", "diagram_type": "fc", "diagram_level": "l3", "generated_code": "tion should be written in a file named `func.py`.<eos>"}
+{"problem": "p84", "diagram_type": "bpmn", "diagram_level": "l1", "generated_code": "tion should be written in a single line of code.<eos>"}
+{"problem": "p84", "diagram_type": "bpmn", "diagram_level": "l2", "generated_code": ""}
