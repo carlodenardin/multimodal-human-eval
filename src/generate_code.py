@@ -42,7 +42,10 @@ class CodeGenerator:
 
         self.paligemma_id = "google/paligemma2-3b-pt-448"
         self.paligemma_model = PaliGemmaForConditionalGeneration.from_pretrained(
-            self.paligemma_id, torch_dtype=torch.bfloat16, device_map="auto"
+            self.paligemma_id,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            token="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",
         ).eval()
         self.paligemma_processor = PaliGemmaProcessor.from_pretrained(
             self.paligemma_id)
