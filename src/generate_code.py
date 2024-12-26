@@ -1,66 +1,109 @@
 from itertools import product
 from openai import OpenAI
-from const import Model, HUMAN_EVAL_URL, PROBLEMS, DIAGRAMS, DL
+from const import Model, HUMAN_EVAL_URL
 
 from utils import trim_code, write_jsonl
 
 from tqdm import tqdm
+import json
+import os
 
-client = OpenAI()
-
-
-def generate_code_openai(problem: str, url: str):
-
-    prompt = f"Given a diagram that solves a problem, generate a runnable python function called {problem} that solve it. The code must follow some rules:\n- The function should get the inputs as parameters and return the output;\n- The function must be wrapped into ```python AND ```\n- Do not provide additional details or comment, just the code\n- Ensure that all indentations are correct.\n"
-
-    completion = client.chat.completions.create(
-        model="gpt-4o-mini-2024-07-18",
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": url,
-                            }
-                        },
-                ],
-                "temperature": 0.7,
-            }
-        ],
-    )
-
-    return trim_code(completion.choices[0].message.content)
+PROBLEMS = ['p84', 'p106', 'p108', 'p119', 'p120',
+            'p126', 'p131', 'p147', 'p150', 'p155']
+DIAGRAMS = ['fc', 'bpmn', 'block']
+LEVELS = ['l1', 'l2', 'l3']
 
 
-def generate_code(model: Model):
-    print(f"Generating code with {model.name}")
+class CodeGenerator:
+    """
+    CodeGenerator class handles incremental code generation, 
+    storing results in a JSONL file with each row composed by 4 keys:
+    - problem: problem identifier (i.e. p84, ...)
+    - diagram_type: type of diagram: Flowchart (fc), BPMN (bpmn), Block (block)
+    - diagram_level: diagram level of detail from general to more specific: l1 -> l2 -> l3 
+    - generated_code: code that has been generated from the model
+    """
 
-    if model.name == Model.OPENAI.name:
+    def __init__(self, model: Model, output_path: str = "./data/human eval"):
+        """
+        :param model: Your model or model identifier (i.e., Model.OPENAI).
+        :param output_path: Folder where the JSONL file will be saved.
+        """
+        self.model = model
+        self.output_file = os.path.join(
+            output_path,
+            f"{model.name.lower()}_generated_code.jsonl"
+        )
+        self.processed_items = self.load_processed_items(self.output_file)
 
-        samples = [
-            dict(
-                problem=problem,
-                diagram_type=diagram,
-                diagram_level=dl,
-                generated_code=generate_code_openai(
-                    problem, f"{HUMAN_EVAL_URL}/{problem}/{diagram}/{dl}.drawio.png"),
-            )
-            for problem in tqdm(PROBLEMS, desc='Processing problems', disable=True)
-            for diagram in tqdm(DIAGRAMS, desc='Processing diagrams')
-            for dl in tqdm((DL if diagram != 'block' else ['l1']), desc='Processing diagram levels', disable=True)
-        ]
+    def generate_code(self):
+        """
+        Main entry point for generating code.
+        Iterates over PROBLEMS, DIAGRAMS, LEVELS, and writes each generated record to JSONL.
+        """
+        print(f"Generating code with {self.model}")
 
-        write_jsonl(
-            "./data/human eval/generated_code.jsonl", samples)
+        for problem in tqdm(PROBLEMS, desc="Processing problems"):
+            for diagram in tqdm(DIAGRAMS, desc="Processing diagrams", disable=True):
+                levs = LEVELS if diagram != "block" else ["l1"]
+                for dl in tqdm(levs, desc="Processing diagram levels", disable=True):
 
-    elif model.name == Model.PALIGEMMA.name:
+                    key = (problem, diagram, dl)
+                    if key in self.processed_items:
+                        continue
+
+                    image_url = f"{HUMAN_EVAL_URL}/{problem}/{diagram}/{dl}.drawio.png"
+                    """
+                    generated_code = generate_code_openai(problem, image_url)
+
+                    record = {
+                        "problem": problem,
+                        "diagram_type": diagram,
+                        "diagram_level": dl,
+                        "generated_code": generated_code
+                    }
+
+                    self.write_record(self.output_file, record)
+                    self.processed_items.add(key)
+                    """
+
+    def load_processed_items(self, filepath: str):
+        processed = set()
+
+        if not os.path.exists(filepath):
+            with open(filepath, "w", encoding="utf-8"):
+                pass
+            return processed
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                data = json.loads(line)
+                key = (
+                    data["problem"],
+                    data["diagram_type"],
+                    data["diagram_level"]
+                )
+                processed.add(key)
+
+        return processed
+
+    def write_record(self, filepath: str, record: dict):
+        with open(filepath, "a", encoding="utf-8") as f:
+            f.write(json.dumps(record) + "\n")
+
+    def generate_code_paligemma():
         pass
-    elif model.name == Model.LLAVA.name:
+
+    def generate_code_llava():
+        pass
+
+    def generate_code_openai():
         pass
 
 
 if __name__ == '__main__':
-    generate_code(model=Model.OPENAI)
+    openai_generator = CodeGenerator(
+        Model.OPENAI,
+        output_path="./data/human eval"
+    )
+    openai_generator.generate_code()
