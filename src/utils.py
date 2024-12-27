@@ -16,6 +16,11 @@ def trim_code(text: str):
     return code
 
 
+def write_record(filepath: str, record: dict):
+    with open(filepath, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record) + "\n")
+
+
 def stream_jsonl(filename: str) -> Iterable[Dict]:
     with open(filename, "r") as fp:
         for line in fp:

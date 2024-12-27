@@ -44,8 +44,7 @@ class CodeGenerator:
         self.paligemma_model = PaliGemmaForConditionalGeneration.from_pretrained(
             self.paligemma_id,
             torch_dtype=torch.bfloat16,
-            device_map="auto",
-            token="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",
+            device_map="auto"
         ).eval()
         self.paligemma_processor = PaliGemmaProcessor.from_pretrained(
             self.paligemma_id)

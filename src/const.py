@@ -1,25 +1,15 @@
-from enum import Enum
+PROBLEMS_HUMAN_EVAL = [
+    'p84', 'p106', 'p108', 'p119', 'p120', 'p126', 'p131', 'p147', 'p150', 'p155',
+]
+PROBLEMS_PSB2 = [
+    'find_pairs', 'leaders', 'spin_words', 'square_digits', 'vector_distance',
+]
+DIAGRAMS = ['fc', 'bpmn', 'block']
+LEVELS = ['l1', 'l2', 'l3']
 
-
-class Model(Enum):
-    PALIGEMMA = 1
-    LLAVA = 2
-    OPENAI = 3
-
-
-BEGIN_TRIM = "```python"
-END_TRIM = "```"
-
-HUMAN_EVAL_URL = "https://raw.githubusercontent.com/carlodenardin/multimodal-human-eval/refs/heads/main/data/human_eval/diagrams"
-
+MAX_RUN = 1
 
 PROMPT = (
-    f"Given a diagram that solves a problem, generate a runnable "
-    f"python function called 'func' that solve it. The code must follow "
-    f"some rules:\n"
-    f"- The function should get the inputs as parameters and "
-    f"return the output;\n"
-    f"- The function must be wrapped into ```python AND ```\n"
-    f"- Do not provide additional details or comment, just the code\n"
-    f"- Ensure that all indentations are correct.\n"
+    f"Understand the problem in the image and write a python "
+    f"function called 'func' that solve it wrapped into ```python and ```"
 )
