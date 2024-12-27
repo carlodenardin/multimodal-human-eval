@@ -22,6 +22,8 @@ MODELS_NAME = [
     # "llava-v1.6-vicuna-7b",
 ]
 
+os.environ['HF_HOME'] = '/dev/shm/.cache/huggingface'
+
 
 class LlavaCodeGenerator:
 
