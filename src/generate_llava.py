@@ -31,7 +31,7 @@ class LlavaCodeGenerator:
         self.output_path = f"./data/{problem_set}"
         self.problem_set = problem_set
         self.problems = PROBLEMS_HUMAN_EVAL if problem_set == "human_eval" else PROBLEMS_PSB2
-        """self.processor, self.model = self.setup()"""
+        self.processor, self.model = self.setup()
         self.checkpoint = self.load_processed_items(
             f"{self.output_path}/{file_name}",
         )
