@@ -1,7 +1,5 @@
 fire
-ollama
 tqdm
-numpy
 torch
 pillow
 bitsandbytes>=0.39.0
