@@ -5,17 +5,21 @@ import torch
 from const import *
 from PIL import Image
 from utils import *
-from transformers import AutoProcessor, LlavaNextForConditionalGeneration, BitsAndBytesConfig
+from transformers import AutoProcessor, LlavaNextForConditionalGeneration, LlavaForConditionalGeneration, BitsAndBytesConfig
 from tqdm import tqdm
 
 MODELS = [
     "llava-hf/llava-v1.6-mistral-7b-hf",
     "llava-hf/llava-v1.6-vicuna-7b-hf",
+    "llava-hf/llava-1.5-7b-hf",
+    "llava-hf/llava-1.5-13b-hf",
 ]
 
 MODELS_NAME = [
-    "llava-mistral-7b",
-    "llava-vicuna-7b",
+    "llava-v1.6-mistral-7b",
+    "llava-v1.6-vicuna-7b",
+    "llava-1.5-7b-hf",
+    "llava-1.5-13b-hf",
 ]
 
 
@@ -45,14 +49,15 @@ class LlavaCodeGenerator:
                             continue
 
                         image_url = f"https://raw.githubusercontent.com/carlodenardin/multimodal-human-eval/refs/heads/main/data/{self.problem_set}/diagrams/{problem}/{diagram}/{dl}.drawio.png"
-                        generated_code = self.generate_code(image_url)
+                        generated_code_raw = self.generate_code(image_url)
 
                         record = {
                             "problem": problem,
                             "run": run,
                             "diagram_type": diagram,
                             "diagram_level": dl,
-                            "generated_code": generated_code
+                            "generated_code": trim_code(generated_code_raw),
+                            "output": generated_code_raw
                         }
 
                         write_record(
@@ -82,7 +87,7 @@ class LlavaCodeGenerator:
 
         output = model.generate(**inputs, max_new_tokens=1024)
 
-        return trim_code(processor.decode(output[0], skip_special_tokens=True))
+        return processor.decode(output[0], skip_special_tokens=True)
 
     def load_processed_items(self, file_path: str):
         processed = set()
@@ -114,11 +119,20 @@ class LlavaCodeGenerator:
             bnb_4bit_compute_dtype=torch.bfloat16,
         )
 
-        model = LlavaNextForConditionalGeneration.from_pretrained(
-            self.model_id,
-            quantization_config=bnb_config,
-            device_map={"": 0}
-        )
+        model = None
+
+        if (self.model_id == "llava-hf/llava-1.5-7b-hf" or self.model_id == "llava-hf/llava-1.5-13b-hf"):
+            model = LlavaForConditionalGeneration.from_pretrained(
+                self.model_id,
+                quantization_config=bnb_config,
+                device_map={"": 0}
+            )
+        else:
+            model = LlavaNextForConditionalGeneration.from_pretrained(
+                self.model_id,
+                quantization_config=bnb_config,
+                device_map={"": 0}
+            )
         model.to("cuda")
 
         return processor, model

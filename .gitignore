@@ -8,3 +8,5 @@ src.egg-info
 src/generate_cases_humaneval.py
 
 __pycache__
+
+src/generate_paligemma.py
