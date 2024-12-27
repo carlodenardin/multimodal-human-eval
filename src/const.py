@@ -11,5 +11,5 @@ MAX_RUN = 1
 
 PROMPT = (
     f"Understand the problem in the image and write a python "
-    f"function called 'func' that solve it wrapped into ```python and ```"
+    f"function called 'func' that solve it wrapped into ```python ```"
 )

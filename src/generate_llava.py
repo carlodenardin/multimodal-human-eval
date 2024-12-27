@@ -45,8 +45,8 @@ class LlavaCodeGenerator:
                             continue
 
                         image_url = f"https://raw.githubusercontent.com/carlodenardin/multimodal-human-eval/refs/heads/main/data/{self.problem_set}/diagrams/{problem}/{diagram}/{dl}.drawio.png"
-                        # generated_code = self.generate_code(image_url)
-                        generated_code = image_url
+                        generated_code = self.generate_code(image_url)
+
                         record = {
                             "problem": problem,
                             "run": run,
