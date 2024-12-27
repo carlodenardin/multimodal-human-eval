@@ -9,17 +9,17 @@ from transformers import AutoProcessor, LlavaNextForConditionalGeneration, Llava
 from tqdm import tqdm
 
 MODELS = [
-    "llava-hf/llava-v1.6-mistral-7b-hf",
-    "llava-hf/llava-v1.6-vicuna-7b-hf",
     "llava-hf/llava-1.5-7b-hf",
-    "llava-hf/llava-1.5-13b-hf",
+    # "llava-hf/llava-1.5-13b-hf",
+    # "llava-hf/llava-v1.6-mistral-7b-hf",
+    # "llava-hf/llava-v1.6-vicuna-7b-hf",
 ]
 
 MODELS_NAME = [
-    "llava-v1.6-mistral-7b",
-    "llava-v1.6-vicuna-7b",
     "llava-1.5-7b-hf",
-    "llava-1.5-13b-hf",
+    # "llava-1.5-13b-hf",
+    # "llava-v1.6-mistral-7b",
+    # "llava-v1.6-vicuna-7b",
 ]
 
 
